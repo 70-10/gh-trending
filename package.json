@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint ."
   },
-  "repository":"70-10/gh-trending",
+  "repository": "70-10/gh-trending",
   "keywords": [],
   "author": "70_10",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "eslint-config-prettier": "^2.1.1",
     "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-prettier": "^2.1.1",
+    "ora": "^1.2.0",
     "prettier": "^1.4.4"
   }
 }
