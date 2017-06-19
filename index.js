@@ -16,6 +16,12 @@ module.exports = language => {
         url: `https://github.com${$("h3 > a", this).attr("href")}`,
         description: $(".py-1", this).text().trim(),
         language: $("span[itemprop='programmingLanguage']", this).text().trim(),
+        star_today: parseInt(
+          $(".f6 span.float-right", this)
+            .text()
+            .trim()
+            .replace(" stars today", "")
+        ),
       };
     })
   );
